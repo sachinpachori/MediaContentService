@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Web.Services;
 using MediaContentService.BL;
+using System.Web.Script.Services;
 
 namespace MediaContentService
 {
@@ -16,7 +17,7 @@ namespace MediaContentService
     {
 
         [WebMethod]
-       // [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
+        [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
         public string GetContent(string oRqst)
         {
             string strResp = String.Empty;

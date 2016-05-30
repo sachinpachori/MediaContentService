@@ -29,6 +29,7 @@ namespace MediaContentService.BL
                         oRes.slug = oPyld.slug;
                         oRes.title = oPyld.title;
                         oResp.response.Add(oRes);
+
                     }                        
                 }
                 if(oResp.response.Count > 0)
