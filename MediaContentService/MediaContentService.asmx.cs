@@ -11,7 +11,7 @@ namespace MediaContentService
     [WebService(Namespace = "http://channel9.com/webservices/")]
     [WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
     [System.ComponentModel.ToolboxItem(false)]
-    // To allow this Web Service to be called from script, using ASP.NET AJAX, uncomment the following line. 
+    // Following line of code will allow this Web Service to be called from script, using ASP.NET AJAX. 
     [System.Web.Script.Services.ScriptService]
     public class MediaContentService : System.Web.Services.WebService
     {
